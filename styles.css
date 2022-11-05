@@ -153,7 +153,6 @@ header {
     justify-content: center;
 }
 .header-container {
-    width: 70%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -194,6 +193,7 @@ header p {
 #contactme-button:hover {
     background-color:rgb(156, 110, 9);
 }
+/* header responsive styling  */
 @media (max-width: 1000px) {
     header p {
         font-size: 1.7em;
@@ -222,5 +222,57 @@ header p {
     }
     .header-right {
         display: none;
+    }
+}
+/* header responsive styling for small viewports in landscape mode such as landscape mobile phones */
+@media (max-height: 500px) {
+    header {
+        background-image: url("./images/HomeHeader.jpg");
+        background-color: #cbcbcb;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header p {
+        font-size: 1em;
+    }
+}
+/* header buttons mobile sized responsive queries */
+@media (min-width: 700px) {
+    .mobilebuttons-container {
+ display: none;
+    }
+}
+@media (max-width: 700px) {
+    .mobilebuttons-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerbutton {
+        line-height: 25px;
+        border-radius: 7px;
+        padding: 10px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+        color: #fff;
+        display: flex;
+        width: 280px;
+        justify-content:center;
+    }
+    #viewportfolio-button-mobile {
+        background-color:rgb(19, 152, 214);
+    }
+    #viewportfolio-button-mobile:hover {
+        background-color:rgb(17, 126, 177);
+    }
+    #contactme-button-mobile {
+        background-color:rgb(214, 153, 22);
+    }
+    #contactme-button-mobile:hover {
+        background-color:rgb(156, 110, 9);
     }
 }
