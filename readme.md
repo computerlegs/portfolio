@@ -28,6 +28,8 @@ html {
 I included css sprites
 
 ### Responsive HTML & CSS Navigation
+Since this project uses HTML and CSS only, the navigation needed to rely on an HTML input with two states: the check box.
+
 To make navigation simple and easy on mobile devices I implemented a hamburger style navigation menu that uses the pseudo class 'checked'. 
 
 The toggle for the menu is a check box that is re-styled with CSS to look like the 'hamburger' style navigation icon. A checkbox type input was added using HTML with an ID applied to the input, and a class applied to the label.
@@ -39,7 +41,7 @@ The toggle for the menu is a check box that is re-styled with CSS to look like t
 </label>
  ```
  
-Because the check box has two states, it could be styled between a 'hamburger' and a 'cross' using CSS. It could also be animated between these two states with the property 'transform' and value 'rotate'. Below you can see the rotation transform in CSS as the input changes into the state 'checked'.
+Because the check box has two states, it can display content in two ways. This allows the menu to be displayed differently before and after a user presses it. The icon can also be styled between a 'hamburger' and a 'cross' using CSS and then animated between these two states with the property 'transform' and value 'rotate'. Below you can see the rotation transform in CSS as the input changes into the state 'checked'.
 
 ```css
 #menu-toggle:checked + .menu-button-container .menu-button::before {
@@ -67,7 +69,7 @@ Media queries dictate when the 'hamburger' icon displays using a media query set
 }
 ```
 
-Media queries in combination with the 'checked' pseudo class dictate how list items are displayed depending on screen size and the state of the hamburger toggle. The tilde (~) symbol makes it so that only 'menu li' class list items following 'menu-toggle' ID items in the 'checked' state are styled. This is effectively how the navigation menu changes states and displays links differently.
+Media queries in combination with the 'checked' pseudo class dictate how list items are displayed depending on screen size and the state of the hamburger toggle. The tilde (~) symbol makes it so that only 'menu li' class list items following 'menu-toggle' ID items in the 'checked' state are styled. This is what makes the nav menu display as a drop down list when the checkbox is clicked.
 
 ```css
 @media (max-width: 700px) {

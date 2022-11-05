@@ -22,14 +22,15 @@ html, body {
     height: 100%;
 }
 /* end define css standards*/
-/* top nav */
+/* start top nav styling */
+/* top nav general and initial properties */
 .top-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #CBCBCB;
-    background: #CBCBCB;
+    background-color: #fff;
+    background: #fff;
     color: #000000;
     height: 50px;
     padding: 1em;
@@ -49,6 +50,7 @@ html, body {
     margin: 0 1rem;
     overflow: hidden;
 }
+/* toggle menu based on checkbox state */
 .menu-button-container {
     display: none;
     height: 100%;
@@ -61,6 +63,7 @@ html, body {
 #menu-toggle {
     display: none;
 }
+/* general styling for hamburger icon */
 .menu-button,
   .menu-button::before,
   .menu-button::after {
@@ -80,22 +83,25 @@ html, body {
     content: '';
     margin-top: 8px;
 }
+/* animation between checked and unchecked states */
 #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
 }
 #menu-toggle:checked + .menu-button-container .menu-button {
-    background: #CBCBCB;
+    background: #fff;
 }
 #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
 }
-  
+/* responsive changes */
 @media (max-width: 700px) {
+/* hamburger becomes visible */
     .menu-button-container {
       display: flex;
     }
+/* position links and hamburger to the right and as a column */
     .menu {
       position: absolute;
       top: 0;
@@ -106,6 +112,7 @@ html, body {
       justify-content: center;
       align-items: center;
     }
+/* hides menu when not toggled */
     #menu-toggle ~ .menu li {
       height: 0;
       margin: 0;
@@ -113,8 +120,9 @@ html, body {
       border: 0;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
+/* displays menu when toggled */
     #menu-toggle:checked ~ .menu li {
-      border: 1px solid rgb(184, 184, 184);
+      border: 1px solid rgb(209, 209, 209);
       height: 2.5em;
       padding: 0.5em;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -126,9 +134,93 @@ html, body {
       padding: 0.5em 0;
       width: 100%;
       color: white;
-      background-color: #CBCBCB;
+      background-color: #fff;
     }
+/* general styling */
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
+    }
+}
+/* end navigation styling */
+/* start header styling */
+header {
+    background-image: url("./images/HomeHeader.jpg");
+    background-color: #cbcbcb;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-container {
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-left {
+    margin-bottom: 20px;
+}
+.header-right {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+header p {
+    font-size: 2em;
+    white-space: pre;
+}
+.headerbutton {
+    line-height: 25px;
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    white-space: nowrap;
+}
+#viewportfolio-button {
+    background-color:rgb(19, 152, 214);
+}
+#viewportfolio-button:hover {
+    background-color:rgb(17, 126, 177);
+}
+#contactme-button {
+    background-color:rgb(214, 153, 22);
+}
+#contactme-button:hover {
+    background-color:rgb(156, 110, 9);
+}
+@media (max-width: 1000px) {
+    header p {
+        font-size: 1.7em;
+    }
+    header {
+        height: 400px;
+    }
+}
+@media (max-width: 700px) {
+    header p {
+        font-size: 1.5em;
+    }
+    header {
+        height: 350px;
+    }
+    .header-right {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    header p {
+        font-size: 1.4em;
+    }
+    header {
+        height: 300px;
+    }
+    .header-right {
+        display: none;
     }
 }
