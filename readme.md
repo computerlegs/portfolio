@@ -24,8 +24,6 @@ html {
     font-family: "Open Sans", Arial;
 }
 ```
-### Font Awesome Icons
-I included css sprites
 
 ### Responsive HTML & CSS Navigation
 Since this project uses HTML and CSS only, the navigation needed to rely on an HTML input with two states: the check box.
@@ -163,7 +161,26 @@ This header is designed for every sort of viewport, including desktops, tablets,
     }
 }
 ```
+### Font Awesome Icons
+Font Awesome is the second most used 'font' on the internet. It facilitates scaleable, CSS based graphic sprites to be used as icons throughout a website. Icons behave as text and are styled through CSS rule sets in the same way.
 
+Font Awesome is loaded in the html head as a .js script:
+
+```html
+<script src="https://kit.fontawesome.com/d5fab9e2ad.js" crossorigin="anonymous"></script>
+```
+
+Then placed onto the page using the 'i' element:
+
+```html
+<i class="fa-brands fa-github social-icons"></i>
+```
+
+I also used the built-in animation effects which required in-line CSS on their custom variable:
+
+```html
+<i class="icons fa-regular fa-envelope fa-beat" style="--fa-animation-iteration-count: 1;"></i>
+```
 
 ## Sitemap
 
