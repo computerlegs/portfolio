@@ -365,3 +365,53 @@ footer p {
     height: 0;
 } */
 /* portfolio image section on homepage */
+.pagebreak {
+    height: 1px;
+    background-color:#cbcbcb;
+    margin: 40px 0px 40px 0px;
+}
+.portfolio-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.portfolio-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-image-left-box {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px 0px 20px;
+}
+.portfolio-image-right-box {
+    max-width: 500px;
+    margin: 0px 20px 0px 20px;
+}
+#portfolio-image-button {
+    line-height: 25px;
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px 0px 10px 0px;
+    color: #fff;
+    display: flex;
+    white-space: nowrap;
+    background-color:rgb(19, 152, 214);
+    max-height: 45px;
+    align-items: flex-end;
+    max-width: 170px;
+}
+#portfolio-image-button:hover {
+    background-color:rgb(17, 126, 177);
+}
+.portfolio-image-heading {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.portfolio-image-container p{
+    margin-bottom: 20px;
+}
