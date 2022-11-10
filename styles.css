@@ -380,6 +380,11 @@ footer p {
     background-color:#cbcbcb;
     margin: 40px 0px 40px 0px;
 }
+.pagebreak-smallmargin {
+    height: 1px;
+    background-color:#cbcbcb;
+    margin: 20px 0px 20px 0px;
+}
 /* portfolio image section on homepage */
 .portfolio-image-wrapper {
     display: flex;
@@ -464,8 +469,7 @@ footer p {
 }
 .page-column-box {
     padding: 10px;
-    max-width: 510px;
-    min-width: 375px;
+    max-width: 650px;
 }
 .page-two-column-header {
     text-align: left;
@@ -489,14 +493,38 @@ footer p {
     max-height: 325px;
     width: auto;
 }
-.resume-download {
+.callout-text {
     text-align: center;
     margin-top: 10px;
+    font-weight: 600;
 }
 .resume-download-button {
-    max-width: 375px;
+    min-width: 300px;
     display: flex;
     text-align: center;
     justify-content: center;
     margin: 0;
+}
+.page-two-column-callout-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page-column-callout-box {
+    display: flex;
+    padding: 10px 50px 10px 50px;
+}
+.about-social-icons {
+    font-size: 3em;
+    color:rgb(19, 152, 214);
+    font-weight: 500;
+    padding: 0px 10px 0px 10px;
+}
+.about-social-icons:hover {
+    color:rgb(214, 153, 22) ;
+    font-weight: 500;
+}
+.page-two-column-paragraph {
+    margin: 15px 0px 15px 0px;
 }
