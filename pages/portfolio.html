@@ -48,53 +48,7 @@
     </header>
     <main class="page-main-wrapper">
         <div class="page-main-box">
-            <div class="page-two-column-box">
-                <div class="page-column-box">
-                    <h3 class="page-two-column-header">Portfolio Item Title</h2>
-                    <p class="page-two-column-paragraph">I am a professional web developer that has worked with hundreds of small businesses in Australia. I'll bring your project from concept to reality. My mission is to provide:</p>
-                    <p class="page-two-column-paragraph">I will give your project every chance for success. I use a mix of HTML, CSS, PHP, Python, Javascript and other coding and markdown languages and online systems/platforms such as Wordpress.</p>
-                </div>
-                <div class="page-column-box">
-                    <div class="tab">
-                        <button class="tablinks" onclick="openProject(event, 'Project Description')">Project Description</button>
-                        <button class="tablinks" onclick="openProject(event, 'Technology Stack')">Technology Stack</button>
-                        <button class="tablinks" onclick="openProject(event, 'Customer Feedback')">Customer Feedback</button>
-                        </div>
-                        <div id="Project Description" class="tabcontent">
-                        <h3>Project Description</h3>
-                        <p>This was a website for a software company.</p>
-                        </div>
-                        <div id="Technology Stack" class="tabcontent">
-                        <h3>Technology Stack</h3>
-                        <p>HTML, CSS, JavaScript</p> 
-                        </div>
-                        <div id="Customer Feedback" class="tabcontent">
-                        <h3>Customer Feedback</h3>
-                        <p>"Pretty good!" - Customer</p>
-                        </div>
-                        <script>
-                        function openProject(evt, projectName) {
-                        var i, tabcontent, tablinks;
-                        tabcontent = document.getElementsByClassName("tabcontent");
-                        for (i = 0; i < tabcontent.length; i++) {
-                            tabcontent[i].style.display = "none";
-                        }
-                        tablinks = document.getElementsByClassName("tablinks");
-                        for (i = 0; i < tablinks.length; i++) {
-                            tablinks[i].className = tablinks[i].className.replace(" active", "");
-                        }
-                        document.getElementById(projectName).style.display = "block";
-                        evt.currentTarget.className += " active";
-                        }
-                        </script>
-                        <button class="tablinks hide-tablinks" onclick="openProject(event, 'Project Description')" id="defaultOpen">Project Description</button>
-                        <script>
-                        // Get the element with id="defaultOpen" and click on it
-                        document.getElementById("defaultOpen").click();
-                        </script> 
-                    </div>
-                </div>
-            </div>
+            
     </main>
     <footer>
         <div class="footer-container">
