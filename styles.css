@@ -24,6 +24,8 @@ html, body {
 /* end define css standards*/
 /* start top nav styling */
 /* top nav general and initial properties */
+.nav-container {
+}
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -314,7 +316,7 @@ header p {
     max-width: 1175px;
 }
 /* main content */
-main {
+.icons-wrapper {
     display:flex;
     justify-content: center;
     flex-direction: row;
@@ -344,3 +346,22 @@ main {
 .icons-item p {
     margin-top: 20px;
 }
+/* footer */
+footer {
+    background-color: #cbcbcb;
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+footer p {
+    padding: 15px 0px 10px 0px;
+}
+/* pagebreak */
+/* .pagebreak {
+    flex-basis: 100%;
+    height: 0;
+} */
+/* portfolio image section on homepage */
