@@ -541,8 +541,8 @@ footer p {
 .tooltip {
     position: relative;
     display: inline-block;
-  }
-  .tooltip .tooltiptext {
+}
+.tooltip .tooltiptext {
     visibility: hidden;
     background-color: rgb(214, 153, 22);
     color: #2a2a2a;
@@ -556,7 +556,33 @@ footer p {
     margin-left: 12px;
     margin-top: -10px;
     font-weight: 600;
-  }
-  .tooltip:hover .tooltiptext {
+}
+.tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+}
+/* contact form styling */
+.contact-form-box {
+    background-color:#cbcbcb;
+    border-radius: 7px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    margin: 10px 20px 20px 20px;
+    min-height: 440px;
+}
+#name, #phnumber, #message {
+    min-width: 320px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+#name, #phnumber{
+    height: 40px;
+}
+#message {
+    height: 165px;
+}
+.contact-form-box p {
+    margin: 10px 0px 0px 0px;
+}
