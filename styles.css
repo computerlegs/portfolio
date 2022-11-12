@@ -571,7 +571,7 @@ footer p {
 }
 .contact-map-image {
 }
-#name, #phnumber, #message {
+#Name, #Email, #Message {
     width: 100%;
     border: none;
     border-radius: 7px;
@@ -579,10 +579,10 @@ footer p {
     font-size: 16px;
     padding: 15px;
 }
-#name, #phnumber{
+#Name, #Email{
     height: 40px;
 }
-#message {
+#Message {
     height: 165px;
 }
 .contact-form-box p {
@@ -609,5 +609,50 @@ footer p {
     }
     .contact-map-image {
         /* width: 255px; */
+    }
+}
+/* blog page */
+.page-blog-container {
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    color: #2a2a2a;
+}
+.page-blog-flex-grid {
+    display: flex;
+    margin: auto -15px 15px;
+    flex-direction: column;
+}
+.page-blog-col {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.page-blog-sidebar {
+    background-color: #cbcbcb;
+    border-radius: 7px;
+    font-size: 0.8em;
+}
+@media (min-width: 600px) {
+    .page-blog-sidebar {
+        flex: 1;
+    }
+    .page-blog-main {
+        flex: 3;
+    }
+    .page-blog-flex-grid {
+        flex-direction: row;
+    }
+}
+@media (max-width: 600px) {
+    .page-blog-sidebar {
+        flex: 1;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .page-blog-main {
+        flex: 1;
     }
 }
