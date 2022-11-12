@@ -566,11 +566,13 @@ footer p {
     border-radius: 7px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 20px;
-    margin: 10px 20px 20px 20px;
     min-height: 440px;
+    width: 350px;
+}
+.contact-map-image {
 }
 #name, #phnumber, #message {
-    min-width: 320px;
+    width: 100%;
     border: none;
     border-radius: 7px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -585,4 +587,27 @@ footer p {
 }
 .contact-form-box p {
     margin: 10px 0px 0px 0px;
+}
+.contact-map-image .spaced-contact-text {
+    margin: 0px 0px 10px 0px;
+}
+.contact-map-image h3 {
+    margin-bottom: 20px;
+}
+.contact-map-image iframe {
+    margin-top: 30px;
+}
+.page-contact-callout-text h2 {
+    padding: 0px 20px 0px 20px;
+}
+@media (max-width: 1000px) {
+    .page-main-wrapper {
+        /* width: 100%; */
+    }
+    .contact-form-box {
+        margin-bottom: 30px;
+    }
+    .contact-map-image {
+        /* width: 255px; */
+    }
 }
