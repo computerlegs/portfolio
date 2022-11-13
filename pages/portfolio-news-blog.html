@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recent Projects - JR Web</title>
     <link rel="stylesheet" href="../styles.css">
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+<!-- Font Awesome icons -->
 <script src="https://kit.fontawesome.com/d5fab9e2ad.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -37,7 +39,7 @@
               </ul>
         </nav> 
   </div>
-    <!-- Header with sky background, text box and buttons -->
+    <!-- Animated header, extends into background of page -->
     <header class="page-header">
         <div class="page-header-container">
             <div class="bg"></div>
@@ -58,29 +60,66 @@
             </div>
         </div>
     </header>
+        <!-- Blog section with media queries to control flex between 1/4s and 1/1s -->
     <main class="main-box">
                 <div class="page-blog-container">
                 <div class="page-blog-flex-grid">
-                    <article class="page-blog-col page-blog-main">
-                        <h3>New website for client</h3>
-                        <div class="blog-image-box">
-                            <img src="../images/portfolio-small-turnbull.png" alt="Small screenshot of completed website" class="responsive-image">
-                        </div>
-                        <p class="blog-blurb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ex cupiditate omnis magnam perferendis veritatis velit a atque in rerum odit odio distinctio maiores! Veritatis culpa consequuntur officiis voluptas porro.</p>
+                    <!-- Contains multiple blog blurbs -->
+                    <section class="page-blog-col page-blog-main">
+                        <!-- Singular blog entry -->
+                        <article class="blog-blurb-box">
+                            <h3>New website for client</h3>
+                            <div class="blog-image-box">
+                                <img src="../images/portfolio-small-turnbull.png" alt="Small screenshot of completed website" class="responsive-image">
+                            </div>
+                            <p class="blog-blurb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ex cupiditate omnis magnam perferendis veritatis velit a atque in rerum odit odio distinctio maiores! Veritatis culpa consequuntur officiis voluptas porro.</p>
+                            <p><a href="../pages/blog/newwebsite.html" class="page-button">View Project</a></p>
+                        </article>
                         <div class="pagebreak"></div>
-                    </article>
+                        <!-- Singular blog entry -->
+                        <article class="blog-blurb-box">
+                            <h3>Studies commence at Coder Academy</h3>
+                            <div class="blog-image-box">
+                                <img src="../images/coder-academy-logo.jpg" alt="Coder Academy logo" class="responsive-image">
+                            </div>
+                            <p class="blog-blurb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ex cupiditate omnis magnam perferendis veritatis velit a atque in rerum odit odio distinctio maiores! Veritatis culpa consequuntur officiis voluptas porro.</p>
+                            <p><a href="../pages/blog/coderacademy.html" class="page-button">Read Article</a></p>
+                        </article>
+                        <div class="pagebreak"></div>
+                        <!-- Singular blog entry -->
+                        <article class="blog-blurb-box">
+                            <h3>Logo developed for Pratt Projects</h3>
+                            <div class="blog-image-box">
+                                <img src="../images/pratt-logo.png" alt="Logo for Pratt Projects" class="responsive-image">
+                            </div>
+                            <p class="blog-blurb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ex cupiditate omnis magnam perferendis veritatis velit a atque in rerum odit odio distinctio maiores! Veritatis culpa consequuntur officiis voluptas porro.</p>
+                            <p><a href="../pages/blog/prattlogo.html" class="page-button">View Project</a></p>
+                        </article>
+                        <div class="pagebreak"></div>
+                        <!-- Singular blog entry -->
+                        <article class="blog-blurb-box">
+                            <h3>We're on GitHub now!</h3>
+                            <div class="blog-image-box">
+                                <img src="../images/GitHub-Logo.png" alt="GitHub logo" class="responsive-image">
+                            </div>
+                            <p class="blog-blurb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ex cupiditate omnis magnam perferendis veritatis velit a atque in rerum odit odio distinctio maiores! Veritatis culpa consequuntur officiis voluptas porro.</p>
+                            <p><a href="../pages/blog/github.html" class="page-button">Read Article</a></p>
+                        </article>
+                    </section>
+                    <!-- Sidebar -->
                     <aside class="page-blog-col page-blog-sidebar">
                         <h3>Recent Projects</h3>
-                        <p>New website for client<p>
-                        <p>New logo for client<p>
+                        <p><a href="../pages/blog/newwebsite.html">New website for client<p></a>
+                        <p><a href="../pages/blog/prattlogo.html">New logo for client<p></a>
                         <div class="pagebreak-smallmargin"></div>
                         <h3>Recent News</h3>
-                        <p>Studies commence at Coder Academy<p>
-                        <p>I am now on GitHub<p>
+                        <p><a href="../pages/blog/coderacademy.html">Studies commence at Coder Academy</a><p>
+                        <p><a href="../pages/blog/github.html">We're on GitHub now!</a><p>
                     </aside>
                 </div>
                 </div>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="footer-container">
             <div class="footer-box footer-left"><p>Located in Sydney, Australia</p></div>

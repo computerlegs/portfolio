@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Projects - JR Web</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Script to load Google Font -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+<!-- Script to load Font Awesome icons -->
+<script src="https://kit.fontawesome.com/d5fab9e2ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Dummy script, helps with 'Flash of unstyled content' firefox error-->
+    <script>
+    0
+    </script>
+    <!-- Navigation -->
+    <div class="nav-container">
+        <nav class="top-nav">
+              <div class="nav-left">
+              <!-- Left side nav space -->
+                  <a target="_blank" href="https://github.com/computerlegs"><i class="fa-brands fa-github social-icons"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/jrwebdesign/"><i class="fa-brands fa-linkedin social-icons"></i></a>
+              </div>
+              <!-- Right side responsive menu -->
+              <input id="menu-toggle" type="checkbox"/>
+              <label class='menu-button-container' for="menu-toggle">
+                  <div class='menu-button'></div>
+              </label>
+              <ul class="menu">
+                  <li><a href="../../index.html">Home</a></li>
+                  <li><a href="../../pages/about.html">About Me</a></li>
+                  <li><a href="../../pages/portfolio-news-blog.html">Projects & News</a></li>
+                  <li><a href="../../pages/contact.html">Contact Me</a></li>
+              </ul>
+        </nav> 
+  </div>
+    <!-- Header which extends into page background -->
+    <header class="page-header">
+        <div class="page-header-container">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="page-two-column-box">
+                <div class="page-column-box">
+                    <div class="page-header-left">
+                        <h1>Projects & News</h1>
+                    </div>                
+                </div>
+                <div class="page-column-box">
+                    <div class="page-header-right">
+                        <div class="headerbutton-box">       
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Blog section with media queries to control flex between 1/4s and 1/1s -->
+    <main class="main-box">
+                <div class="page-blog-container">
+                <div class="page-blog-flex-grid">
+                    <section class="page-blog-col page-blog-main">
+                        <!-- Main blog or project article -->
+                        <article class="blog-blurb-box">
+                            <h3>New website for client</h3>
+                            <div class="blog-image-box-large">
+                                <img src="../../images/portfolio-small-turnbull.png" alt="Screenshot of completed website" class="responsive-image">
+                            </div>
+                            <p class="blog-blurb">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Amet nisl suscipit adipiscing bibendum. Ornare suspendisse sed nisi lacus. Eu non diam phasellus vestibulum lorem sed risus ultricies. Egestas maecenas pharetra convallis posuere morbi leo. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Sed blandit libero volutpat sed. Nulla facilisi cras fermentum odio eu feugiat pretium. Eget egestas purus viverra accumsan in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Et tortor consequat id porta nibh venenatis. Lacus vel facilisis volutpat est velit egestas dui. Massa enim nec dui nunc mattis enim ut. Fusce id velit ut tortor pretium. Elit sed vulputate mi sit amet mauris commodo quis.</p>
+                            <p class="blog-blurb">
+                                At varius vel pharetra vel. Consectetur adipiscing elit ut aliquam purus sit. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Viverra maecenas accumsan lacus vel facilisis volutpat. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Quis viverra nibh cras pulvinar mattis nunc sed. Tempor orci eu lobortis elementum nibh tellus. Mauris in aliquam sem fringilla ut morbi tincidunt. Id venenatis a condimentum vitae sapien pellentesque. Neque sodales ut etiam sit amet nisl purus in. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Elit duis tristique sollicitudin nibh sit amet commodo. Viverra maecenas accumsan lacus vel. Sed risus pretium quam vulputate dignissim suspendisse in. Purus faucibus ornare suspendisse sed nisi. Nam aliquam sem et tortor consequat id porta nibh. Ultricies integer quis auctor elit. Sed turpis tincidunt id aliquet. Velit egestas dui id ornare.
+                            </p>
+                        </article>
+                    </section>
+                    <!-- Sidebar -->
+                    <aside class="page-blog-col page-blog-sidebar">
+                        <h3>Recent Projects</h3>
+                        <p><a href="../../pages/blog/newwebsite.html">New website for client<p></a>
+                        <p><a href="../../pages/blog/prattlogo.html">New logo for client<p></a>
+                        <div class="pagebreak-smallmargin"></div>
+                        <h3>Recent News</h3>
+                        <p><a href="../../pages/blog/coderacademy.html">Studies commence at Coder Academy</a><p>
+                        <p><a href="../../pages/blog/github.html">We're on GitHub now!</a><p>
+                    </aside>
+                </div>
+                </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box footer-left"><p>Located in Sydney, Australia</p></div>
+            <div class="footer-box footer-right"><p>Josh Reinhardt Web Development</p></div>
+        </div>
+    </footer>
+</body>
+</html>

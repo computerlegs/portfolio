@@ -297,6 +297,7 @@ html, body {
 /* home page stuff */
 .main-box {
     padding: 0px 15px 0px 15px;
+    min-height: 100%;
 }
 .page-wrapper {
     display:flex;
@@ -651,6 +652,19 @@ footer p {
 }
 .blog-image-box {
     width: 250px;
+    margin-bottom: 20px;
+}
+.blog-image-box-large {
+    width: 400px;
+    margin-bottom: 20px;
+}
+.page-blog-sidebar a {
+    color:#2a2a2a;
+    font-weight: 500;
+}
+.page-blog-sidebar a:hover {
+    color:rgb(19, 152, 214);
+    font-weight: 500;
 }
 @media (min-width: 600px) {
     .page-blog-sidebar {
