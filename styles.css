@@ -445,6 +445,10 @@ footer p {
     padding: 0 0 0 10px;
 }
 /* page general stuff */
+.fa-pen, .fa-check, .fa-magnifying-glass, .fa-comment {
+    margin-right: 5px;
+    font-size: 1em;
+}
 .page-two-column-box {
     display: flex;
     flex-direction: row;
@@ -607,7 +611,7 @@ footer p {
 .page-blog-col {
     margin-left: 15px;
     margin-right: 15px;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 15px;
     background-color: #fff;
     border-radius: 7px;
