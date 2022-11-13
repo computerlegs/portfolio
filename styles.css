@@ -659,3 +659,19 @@ footer p {
         flex: 1;
     }
 }
+/* animation for header buttons */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.headerbutton {
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+}
