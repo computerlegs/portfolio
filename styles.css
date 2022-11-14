@@ -244,6 +244,9 @@ html, body {
     -moz-box-shadow: 0 3px 20px -6px #777;
     box-shadow: 0 3px 20px -6px #777;
 }
+.headerbutton:hover {
+    box-shadow: 0 1px 20px -6px #777;
+}
 #viewportfolio-button {
     background-color:rgb(19, 152, 214);
 }
@@ -432,7 +435,7 @@ footer p {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     color: #fff;
     background-color:rgb(19, 152, 214);
     -webkit-box-shadow: 0 10px 20px -6px #777;
@@ -441,6 +444,7 @@ footer p {
 }
 .page-button:hover {
     background-color:rgb(214, 153, 22);
+    box-shadow: 0 5px 20px -6px #777;
 }
 .small-button {
     max-width: 170px;
@@ -680,6 +684,7 @@ footer p {
     -webkit-box-shadow: 0 5px 20px -6px #777;
     -moz-box-shadow: 0 5px 20px -6px #777;
     box-shadow: 0 5px 20px -6px #777;
+    padding-bottom: 40px;
 }
 .page-blog-sidebar {
     background-color: #fff;

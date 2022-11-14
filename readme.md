@@ -21,7 +21,7 @@ The design chosen is intended to be familiar and easy to navigate.
 ### Google Fonts
 
 <p align="center">
-  <img src="./docs/snips/font.png" alt="Snippet screenshot - Font">
+  <img src=".blob/main/docs/snips/font.png" alt="Snippet screenshot - Font">
 </p>
 
 I used Google Font 'Open Sans' by adding a link to the header of each HTML document:
@@ -493,6 +493,7 @@ GoFullPage Chrome Screenshot extension
 Font Awesome Icons  
 Google Maps API  
 Gloomaps sitemap online platform  
-Favicon.io online favicon generator  
+Favicon.io online favicon generator 
+BitMoji emoji avatar creator 
 CPanel  
 Windows 10  
