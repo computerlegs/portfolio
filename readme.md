@@ -98,66 +98,27 @@ header-container {
     justify-content: center;
 }
 ```
-The header area changes height, font-size, and content based on viewport sizes. 
+The header area changes height and font-size based on viewport sizes. 
 
-A CSS ID was required so that the two buttons, which are styled basically the same, are able to have different styling and be displayed in different places depending on viewport.
-
-At the 700px width mark, the call to action buttons are displayed underneith the background image instead of inside it.
-
-The placement of these buttons inside and outside the header image is achieved with ID tags on html elements inside the header and in a section directly after it. 
-
-The HTML has these buttons in the header:
-
-```html
-          <div class="header-right">
-            <a href="#" id="viewportfolio-button" class="headerbutton">View Portfolio</a><a href="#" id="contactme-button" class="headerbutton">Contact Me</a>
-          </div>
-```
-
-And below, in a section:
-
-```html
-          <section class="mobilebuttons-container">
-            <a href="#" id="viewportfolio-button-mobile" class="headerbutton">View Portfolio</a><a href="#" id="contactme-button-mobile" class="headerbutton">Contact Me</a>
-          </section>
-```
-
-Depending on the width of the user's viewport, either are toggled via CSS media queries:
-
-```css
-@media (max-width: 700px) {
-    header p {
-        font-size: 1.5em;
-    }
-    header {
-        height: 350px;
-    }
-    .header-right {
-        display: none;
-    }
-}
-@media (min-width: 700px) {
-    .mobilebuttons-container {
- display: none;
-    }
-}
-```
+It is made with flexbox in two columns which allows the call to action buttons to move underneith the hero text on smaller width viewports.
 
 This header is designed for every sort of viewport, including desktops, tablets, mobile phones and even landscape oriented mobile phone viewports. Below is the CSS for landscape oriented mobile sized viewports:
 
 ```css
 @media (max-height: 500px) {
-    header {
-        background-image: url("./images/HomeHeader.jpg");
-        background-color: #cbcbcb;
+    .home-header {
         width: 100%;
-        height: 150px;
+        height: 100px;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-top: 150px;
     }
-    header p {
+    .home-header p {
         font-size: 1em;
+    }
+    .home-header-container {
+        padding-bottom: 10px;
     }
 }
 ```
@@ -176,7 +137,7 @@ Then placed onto the page using the 'i' element:
 <i class="fa-brands fa-github social-icons"></i>
 ```
 
-I also used the built-in animation effects which required in-line CSS on their custom variable:
+I used the built-in animation effects which required in-line CSS on their custom variable:
 
 ```html
 <i class="icons fa-regular fa-envelope fa-beat" style="--fa-animation-iteration-count: 1;"></i>
