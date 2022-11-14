@@ -10,7 +10,7 @@ The purpose of this portfolio website is to communicate and demonstrate my abili
 
 The website is intended to show my talent, abilities and coding experience.
 
-The website ashowcases my projects and industry activity in blog format.
+The website showcases my projects and industry activity in blog format.
 
 The website intends to demonstrate responsible and tasteful use of colours, design, and html/css componants that are creative, clean, easy to navigate or read read and consistent between pages.
 
@@ -22,7 +22,7 @@ Noteworthy functionality and features listed in headers below.
 
 ### Google Fonts
 
-![Google fonts image](./docs/snips/font.png)
+![Google fonts image](../docs/snips/font.png)
 
 I used Google Font 'Open Sans' by adding a link to the header of each HTML document:
 
