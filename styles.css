@@ -34,6 +34,9 @@ html, body {
     color: #2a2a2a;
     height: 50px;
     padding: 0.9em;
+    -webkit-box-shadow: 0px 2px 40px -6px #777;
+    -moz-box-shadow: 0px 2px 40px -6px #777;
+    box-shadow: 0px 2px 40px -6px #777;
 }
 .menu {
     display: flex;
@@ -163,30 +166,40 @@ html, body {
 }
 /* sliding background */
 .bg {
-    animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, rgb(222, 214, 172) 50%, rgb(142, 212, 255) 50%);
-    bottom:0;
-    left:-50%;
-    opacity:.5;
-    position:fixed;
-    right:-50%;
-    top:0;
-    z-index:-1;
+    animation: slide 6s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(141, 210, 255) 50%, rgb(90, 164, 255) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -2;
 }
 .bg2 {
     animation-direction:alternate-reverse;
-    animation-duration:9s;
+    animation-duration: 9s;
 } 
 .bg3 {
     animation-duration:16s;
 }    
 @keyframes slide {
     0% {
-      transform:translateX(-25%);
+      transform:translateX(-22%);
     }
     100% {
-      transform:translateX(25%);
+      transform:translateX(22%);
     }
+}
+.blurbg {
+    backdrop-filter: blur(55px);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 0;
+    top: 0;
 }
 /* home page header */
 .header-container {
@@ -226,6 +239,9 @@ html, body {
     color: #fff;
     display: flex;
     white-space: nowrap;
+    -webkit-box-shadow: 0 10px 20px -6px #777;
+    -moz-box-shadow: 0 10px 20px -6px #777;
+    box-shadow: 0 10px 20px -6px #777;
 }
 #viewportfolio-button {
     background-color:rgb(19, 152, 214);
@@ -311,6 +327,10 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px 0px 20px 0px;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 20px -6px #777;
+    -moz-box-shadow: 0 10px 20px -6px #777;
+    box-shadow: 0 10px 20px -6px #777;
 }
 .icons-item a:visited, .icons-item a {
     color: #2a2a2a;
@@ -348,6 +368,9 @@ footer {
     margin-top: 50px;
     text-align: center;
     background-color: #fff;
+    -webkit-box-shadow: 0px -10px 40px -6px #777;
+    -moz-box-shadow: 0px -10px 40px -6px #777;
+    box-shadow: 0px -10px 40px -6px #777;
 }
 footer p {
     padding: 15px 0px 10px 0px;
@@ -372,7 +395,7 @@ footer p {
 }
 .pagebreak-smallmargin {
     height: 1px;
-    background-color: #2a2a2a;
+    background-color: #cbcbcb;
     margin: 20px 0px 20px 0px;
 }
 /* portfolio image section on homepage */
@@ -395,6 +418,9 @@ footer p {
     margin: 10px 0px 10px 0px;
     color: #fff;
     background-color:rgb(19, 152, 214);
+    -webkit-box-shadow: 0 10px 20px -6px #777;
+    -moz-box-shadow: 0 10px 20px -6px #777;
+    box-shadow: 0 10px 20px -6px #777;
 }
 .page-button:hover {
     background-color:rgb(214, 153, 22);
@@ -454,6 +480,7 @@ footer p {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .page-column-box {
     max-width: 650px;
@@ -548,7 +575,7 @@ footer p {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 20px;
     min-height: 440px;
-    width: 350px;
+    width: 100%;
     margin: 0px 20px;
 }
 .contact-map-image {
@@ -588,6 +615,7 @@ footer p {
     background-color:#fff;
     padding: 20px;
     border-radius: 7px;
+    width: 100%;
 }
 @media (max-width: 1000px) {
     .contact-form-box {
@@ -596,7 +624,7 @@ footer p {
 }
 /* blog page */
 .page-blog-container {
-    max-width: 1000px;
+    width: 100%;
     margin: auto;
 }
 .page-blog-container h3 {
@@ -617,7 +645,7 @@ footer p {
     border-radius: 7px;
 }
 .page-blog-sidebar {
-    background-color: #cbcbcb;
+    background-color: #fff;
     border-radius: 7px;
     font-size: 0.8em;
     line-height: 24px;
