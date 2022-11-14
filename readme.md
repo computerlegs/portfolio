@@ -22,10 +22,7 @@ Noteworthy functionality and features listed in headers below.
 
 ### Google Fonts
 
-<p align="center">
-  <img src="./docs/snips/font.png" alt="Snippet screenshot - Font">
-</p>
-!(./docs/snips/font.png)[Google Font]
+![Google fonts image](./docs/snips/font.png)
 
 I used Google Font 'Open Sans' by adding a link to the header of each HTML document:
 
@@ -43,9 +40,8 @@ html {
 
 ### Responsive HTML & CSS Navigation
 
-<p align="center">
-  <img src="./docs/snips/nav.png" alt="Snippet screenshot - Nav">
-</p>
+![Snippet screenshot - Nav](./docs/snips/nav.png)
+
 
 Since this project uses HTML and CSS only, the navigation needed to rely on an HTML input with two states: the check box.
 
@@ -110,12 +106,9 @@ Media queries in combination with the 'checked' pseudo class dictate how list it
 
 ### Responsive header area with intro text and call to action buttons
 
-<p align="center">
-  <img src="./docs/snips/header.png" alt="Snippet screenshot - header">
-</p>  
-<p align="center">
-  <img src="./docs/snips/headermobile.png" alt="Snippet screenshot - header mobile view">
-</p>
+![Snippet screenshot - header](./docs/snips/header.png)
+![Snippet screenshot - header mobile view](./docs/snips/headermobile.png)
+
 
 This header uses flex box to position intro text and two different coloured call to action buttons. Elements are aligned at the bottom of the container using the property 'align-items' and value 'flex-end'.
 
@@ -152,9 +145,8 @@ This header is designed for every sort of viewport, including desktops, tablets,
 ```
 ### Font Awesome Icons
 
-<p align="center">
-  <img src="./docs/snips/icons.png" alt="Snippet screenshot - icons" with="100%" height="auto">
-</p>  
+![Font Awesome Icons](./docs/snips/icons.png)
+
 
 Font Awesome is the second most used 'font' on the internet. It facilitates scaleable, CSS based graphic sprites to be used as icons throughout a website. Icons behave as text and are styled through CSS rule sets in the same way.
 
@@ -178,9 +170,7 @@ I used the built-in animation effects which required in-line CSS on their custom
 
 ### Animated four layer background
 
-<p align="center">
-  <img src="./docs/snips/background.png" alt="Background snippet" with="100%" height="auto">
-</p>
+![Background Screenshot](./docs/snips/background.png)
 
 The website features a background effect that starts inside the header area and extends into the full page background. It is a single linear gradient full page section that achieves a sliding effect by cascading animation property changes in four 'div' placed in the header. The initial 'bg' class is combined with 'bg2' and 'bg3' classes which change the duration and direction. Each layer has opacity of 0.5 and the result is three distinct levels of depth. This is placed behind the div 'blurbg' which blurs the the sections into each other using the backdrop-filter property.
 
@@ -222,12 +212,8 @@ I used this dynamic background to give the website a sense of depth and movement
 
 ### Box shadow
 
-<p align="center">
-  <img src="./docs/snips/boxshadow2.png" alt="Boxshadow snippet" with="100%" height="auto">
-</p>  
-<p align="center">
-  <img src="./docs/snips/boxshadow.png" alt="Boxshadow snippet" with="100%" height="auto">
-</p>  
+![Boxshadow snippet](./docs/snips/boxshadow2.png)
+![Boxshadow snippet](./docs/snips/boxshadow.png)
 
 To give areas of the website depth I applied various box shadows to the navigation, page content areas, and footer, and buttons. This was to further seperate the content from the background, and give a floating effect.
 
@@ -280,12 +266,8 @@ Icons in the nav bar, at the top left, link to GitHub and LinkedIn. They use Fon
 
 ### Blog section with sidebar that moves underneith blog posts depending on viewport width
 
-<p align="center">
-  <img src="./docs/snips/blog1.png" alt="Blog sidebar snippet" with="100%" height="auto">
-</p>  
-<p align="center">
-  <img src="./docs/snips/blog2.png" alt="Blog sidebar snippet" with="100%" height="auto">
-</p>  
+![Blog sidebar snippet](./docs/snips/blog1.png)
+![Blog sidebar snippet](./docs/snips/blog2.png)
 
 The blog page contains some interesting use of Flexbox. Using the flex value, the sidebar moves _underneith_ the blog posts depending on viewport. At 600px, the flex value changes from sharing space at 3/4 and 1/4 to both taking 1/1 available width.
 
@@ -351,9 +333,7 @@ The padding on left and right sides really made the website pop on mobile phones
 
 ### Deployed on new .au second level domain
 
-<p align="center">
-  <img src="./docs/snips/addressbar.png" alt="Address bar showing domain snippet" with="100%" height="auto">
-</p>  
+![Address bar with .au domain](./docs/snips/addressbar.png)
 
 Very recently at time of writing (November 11, 2022) the new second level domain ".au" became available to register. I took advantage of this and registered a 5 character domain, jrweb.au.
 
@@ -367,9 +347,7 @@ I chose Panthur hosting because they offer a reseller package, which means that 
 
 ### Custom favicon
 
-<p align="center">
-  <img src="./docs/snips/favicon.png" alt="Favicon snippet" with="100%" height="auto">
-</p>  
+![Favicon Screenshot](./docs/snips/favicon.png)
 
 The website features a basic favicon which is displayed in tabs, the address bar or bookmarks.
 
@@ -404,78 +382,38 @@ echo "Thank You!";
 
 The website consists of nine html pages and a single php page.
 
-<p align="center">
-  <img src="./docs/sitemap.png" alt="Sitemap Screenshot" width="100%" height="auto"/>
-</p>
- 
+![Sitemap Screenshot](./docs/sitemap.png)
+
 
 ## Screenshots
 
 ### Mobile
 
-<p align="center">
-  <img src="./docs/phone/index.png" alt="Mobile Index Page Screenshot" width="50%" height="auto"/>
-</p>
+![Mobile Index Page Screenshot](./docs/phone/index.png)
+![Mobile About Page Screenshot](./docs/phone/about.png)
+![Mobile Blog Page Screenshot](./docs/phone/blog.png)
+![Mobile Article Page Screenshot](./docs/phone/article.png)
+![Mobile Contact Page Screenshot](./docs/phone/contact.png)
 
-<p align="center">
-  <img src="./docs/phone/about.png" alt="About Page Index Screenshot" width="50%" height="auto"/>
-</p>
 
-<p align="center">
-  <img src="./docs/phone/blog.png" alt="Mobile Blog Page Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/phone/article.png" alt="Mobile Article Page Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/phone/contact.png" alt="Mobile Contact Page Screenshot" width="50%" height="auto"/>
-</p>
 
 ### Tablet
 
-<p align="center">
-  <img src="./docs/tablet/index.png" alt="Tablet Index Page Screenshot" width="50%" height="auto"/>
-</p>
+![Tablet Index Page Screenshot](./docs/tablet/index.png)
+![Tablet About Page Screenshot](./docs/tablet/about.png)
+![Tablet Blog Page Screenshot](./docs/tablet/blog.png)
+![Tablet Article Page Screenshot](./docs/tablet/article.png)
+![Tablet Contact Page Screenshot](./docs/tablet/contact.png)
 
-<p align="center">
-  <img src="./docs/tablet/about.png" alt="Tablet Page Index Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/tablet/blog.png" alt="Tablet Blog Page Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/tablet/article.png" alt="Tablet Article Page Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/tablet/contact.png" alt="Tablet Contact Page Screenshot" width="50%" height="auto"/>
-</p>
 
 ### Desktop
 
-<p align="center">
-  <img src="./docs/desktop/index.png" alt="Desktop Index Page Screenshot" width="50%" height="auto"/>
-</p>
+![Desktop Index Page Screenshot](./docs/desktop/index.png)
+![Desktop About Page Screenshot](./docs/desktop/about.png)
+![Desktop Blog Page Screenshot](./docs/desktop/blog.png)
+![Desktop Article Page Screenshot](./docs/desktop/article.png)
+![Desktop Contact Page Screenshot](./docs/desktop/contact.png)
 
-<p align="center">
-  <img src="./docs/desktop/about.png" alt="Desktop Page Index Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/desktop/blog.png" alt="Desktop Blog Page Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/desktop/article.png" alt="Desktop Article Page Screenshot" width="50%" height="auto"/>
-</p>
-
-<p align="center">
-  <img src="./docs/desktop/contact.png" alt="Desktop Contact Page Screenshot" width="50%" height="auto"/>
-</p>
 
 ## Target Audience
 
