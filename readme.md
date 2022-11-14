@@ -22,7 +22,7 @@ Noteworthy functionality and features listed in headers below.
 
 ### Google Fonts
 
-![Google fonts image](./docs/snips/font.png)
+![Google fonts image](./docs/snips/font.PNG)
 
 I used Google Font 'Open Sans' by adding a link to the header of each HTML document:
 
