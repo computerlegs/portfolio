@@ -3,7 +3,7 @@ A portfolio website created as a student at Australian Institute of Technology C
 
 Working version available at: http://jrweb.au  
 GitHub repository available at: https://github.com/computerlegs/portfolio  
-Presentation video available at:   
+Presentation video available at: https://youtu.be/yGDEze2CuYk   
 
 ## Purpose  
 The purpose of this portfolio website is to communicate and demonstrate my abilities to prospective employers in a clean, professional manner.
@@ -18,11 +18,14 @@ The design chosen is intended to be familiar and easy to navigate.
 
 ## Functionality & Features
 
+Noteworthy functionality and features listed in headers below.  
+
 ### Google Fonts
 
 <p align="center">
-  <img src=".blob/main/docs/snips/font.png" alt="Snippet screenshot - Font">
+  <img src="./docs/snips/font.png" alt="Snippet screenshot - Font">
 </p>
+!(./docs/snips/font.png)[Google Font]
 
 I used Google Font 'Open Sans' by adding a link to the header of each HTML document:
 
