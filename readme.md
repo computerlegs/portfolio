@@ -40,7 +40,7 @@ html {
 
 ### Responsive HTML & CSS Navigation
 
-![Snippet screenshot - Nav](./docs/snips/nav.png)
+![Snippet screenshot - Nav](./docs/snips/nav.PNG)
 
 
 Since this project uses HTML and CSS only, the navigation needed to rely on an HTML input with two states: the check box.
@@ -106,8 +106,8 @@ Media queries in combination with the 'checked' pseudo class dictate how list it
 
 ### Responsive header area with intro text and call to action buttons
 
-![Snippet screenshot - header](./docs/snips/header.png)
-![Snippet screenshot - header mobile view](./docs/snips/headermobile.png)
+![Snippet screenshot - header](./docs/snips/header.PNG)
+![Snippet screenshot - header mobile view](./docs/snips/headermobile.PNG)
 
 
 This header uses flex box to position intro text and two different coloured call to action buttons. Elements are aligned at the bottom of the container using the property 'align-items' and value 'flex-end'.
@@ -145,7 +145,7 @@ This header is designed for every sort of viewport, including desktops, tablets,
 ```
 ### Font Awesome Icons
 
-![Font Awesome Icons](./docs/snips/icons.png)
+![Font Awesome Icons](./docs/snips/icons.PNG)
 
 
 Font Awesome is the second most used 'font' on the internet. It facilitates scaleable, CSS based graphic sprites to be used as icons throughout a website. Icons behave as text and are styled through CSS rule sets in the same way.
@@ -170,7 +170,7 @@ I used the built-in animation effects which required in-line CSS on their custom
 
 ### Animated four layer background
 
-![Background Screenshot](./docs/snips/background.png)
+![Background Screenshot](./docs/snips/background.PNG)
 
 The website features a background effect that starts inside the header area and extends into the full page background. It is a single linear gradient full page section that achieves a sliding effect by cascading animation property changes in four 'div' placed in the header. The initial 'bg' class is combined with 'bg2' and 'bg3' classes which change the duration and direction. Each layer has opacity of 0.5 and the result is three distinct levels of depth. This is placed behind the div 'blurbg' which blurs the the sections into each other using the backdrop-filter property.
 
@@ -212,8 +212,8 @@ I used this dynamic background to give the website a sense of depth and movement
 
 ### Box shadow
 
-![Boxshadow snippet](./docs/snips/boxshadow2.png)
-![Boxshadow snippet](./docs/snips/boxshadow.png)
+![Boxshadow snippet](./docs/snips/boxshadow2.PNG)
+![Boxshadow snippet](./docs/snips/boxshadow.PNG)
 
 To give areas of the website depth I applied various box shadows to the navigation, page content areas, and footer, and buttons. This was to further seperate the content from the background, and give a floating effect.
 
@@ -266,8 +266,8 @@ Icons in the nav bar, at the top left, link to GitHub and LinkedIn. They use Fon
 
 ### Blog section with sidebar that moves underneith blog posts depending on viewport width
 
-![Blog sidebar snippet](./docs/snips/blog1.png)
-![Blog sidebar snippet](./docs/snips/blog2.png)
+![Blog sidebar snippet](./docs/snips/blog1.PNG)
+![Blog sidebar snippet](./docs/snips/blog2.PNG)
 
 The blog page contains some interesting use of Flexbox. Using the flex value, the sidebar moves _underneith_ the blog posts depending on viewport. At 600px, the flex value changes from sharing space at 3/4 and 1/4 to both taking 1/1 available width.
 
@@ -333,7 +333,7 @@ The padding on left and right sides really made the website pop on mobile phones
 
 ### Deployed on new .au second level domain
 
-![Address bar with .au domain](./docs/snips/addressbar.png)
+![Address bar with .au domain](./docs/snips/addressbar.PNG)
 
 Very recently at time of writing (November 11, 2022) the new second level domain ".au" became available to register. I took advantage of this and registered a 5 character domain, jrweb.au.
 
@@ -347,7 +347,7 @@ I chose Panthur hosting because they offer a reseller package, which means that 
 
 ### Custom favicon
 
-![Favicon Screenshot](./docs/snips/favicon.png)
+![Favicon Screenshot](./docs/snips/favicon.PNG)
 
 The website features a basic favicon which is displayed in tabs, the address bar or bookmarks.
 
@@ -382,37 +382,37 @@ echo "Thank You!";
 
 The website consists of nine html pages and a single php page.
 
-![Sitemap Screenshot](./docs/sitemap.png)
+![Sitemap Screenshot](./docs/sitemap.PNG)
 
 
 ## Screenshots
 
 ### Mobile
 
-![Mobile Index Page Screenshot](./docs/phone/index.png)
-![Mobile About Page Screenshot](./docs/phone/about.png)
-![Mobile Blog Page Screenshot](./docs/phone/blog.png)
-![Mobile Article Page Screenshot](./docs/phone/article.png)
-![Mobile Contact Page Screenshot](./docs/phone/contact.png)
+![Mobile Index Page Screenshot](./docs/phone/index.PNG)
+![Mobile About Page Screenshot](./docs/phone/about.PNG)
+![Mobile Blog Page Screenshot](./docs/phone/blog.PNG)
+![Mobile Article Page Screenshot](./docs/phone/article.PNG)
+![Mobile Contact Page Screenshot](./docs/phone/contact.PNG)
 
 
 
 ### Tablet
 
-![Tablet Index Page Screenshot](./docs/tablet/index.png)
-![Tablet About Page Screenshot](./docs/tablet/about.png)
-![Tablet Blog Page Screenshot](./docs/tablet/blog.png)
-![Tablet Article Page Screenshot](./docs/tablet/article.png)
-![Tablet Contact Page Screenshot](./docs/tablet/contact.png)
+![Tablet Index Page Screenshot](./docs/tablet/index.PNG)
+![Tablet About Page Screenshot](./docs/tablet/about.PNG)
+![Tablet Blog Page Screenshot](./docs/tablet/blog.PNG)
+![Tablet Article Page Screenshot](./docs/tablet/article.PNG)
+![Tablet Contact Page Screenshot](./docs/tablet/contact.PNG)
 
 
 ### Desktop
 
-![Desktop Index Page Screenshot](./docs/desktop/index.png)
-![Desktop About Page Screenshot](./docs/desktop/about.png)
-![Desktop Blog Page Screenshot](./docs/desktop/blog.png)
-![Desktop Article Page Screenshot](./docs/desktop/article.png)
-![Desktop Contact Page Screenshot](./docs/desktop/contact.png)
+![Desktop Index Page Screenshot](./docs/desktop/index.PNG)
+![Desktop About Page Screenshot](./docs/desktop/about.PNG)
+![Desktop Blog Page Screenshot](./docs/desktop/blog.PNG)
+![Desktop Article Page Screenshot](./docs/desktop/article.PNG)
+![Desktop Contact Page Screenshot](./docs/desktop/contact.PNG)
 
 
 ## Target Audience
