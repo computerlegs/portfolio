@@ -408,11 +408,11 @@ The website consists of nine html pages and a single php page.
 
 ### Desktop
 
-![Desktop Index Page Screenshot](./docs/desktop/index.PNG)
-![Desktop About Page Screenshot](./docs/desktop/about.PNG)
-![Desktop Blog Page Screenshot](./docs/desktop/blog.PNG)
-![Desktop Article Page Screenshot](./docs/desktop/article.PNG)
-![Desktop Contact Page Screenshot](./docs/desktop/contact.PNG)
+![Desktop Index Page Screenshot](./docs/desktop/index.png)
+![Desktop About Page Screenshot](./docs/desktop/about.png)
+![Desktop Blog Page Screenshot](./docs/desktop/blog.png)
+![Desktop Article Page Screenshot](./docs/desktop/article.png)
+![Desktop Contact Page Screenshot](./docs/desktop/contact.png)
 
 
 ## Target Audience
