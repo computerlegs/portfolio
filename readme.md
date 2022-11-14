@@ -143,6 +143,160 @@ I used the built-in animation effects which required in-line CSS on their custom
 <i class="icons fa-regular fa-envelope fa-beat" style="--fa-animation-iteration-count: 1;"></i>
 ```
 
+### Animated four layer background
+
+The website features a background effect that starts inside the header area and extends into the full page background. It is a single linear gradient full page section that achieves a sliding effect by cascading animation property changes in four 'div' placed in the header. The initial 'bg' class is combined with 'bg2' and 'bg3' classes which change the duration and direction. Each layer has opacity of 0.5 and the result is three distinct levels of depth. This is placed behind the div 'blurbg' which blurs the the sections into each other using the backdrop-filter property.
+
+This section required the use of the z index property to ensure the linear gradient divs showed behind the blur and displayed behind all other areas of the site.
+
+I used this dynamic background to give the website a sense of depth and movement without being too distracting. I chose blue because it gives a sense of being in the open, a sense of security, calmness and stability.
+
+```css
+.bg {
+    animation: slide 6s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(141, 210, 255) 50%, rgb(90, 164, 255) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -2;
+}
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration: 9s;
+}
+.bg3 {
+    animation-duration:16s;
+}
+.blurbg {
+    backdrop-filter: blur(55px);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+```
+
+### Box shadow
+
+To give areas of the website depth I applied various box shadows to the navigation, page content areas, and footer. This was to further seperate the content from the background, and give a floating effect.
+
+The box shadow changes slightly throughout the site, differeing in size and direction.
+
+```css
+.page-container {
+    -webkit-box-shadow: 0 5px 20px -6px #777;
+    -moz-box-shadow: 0 5px 20px -6px #777;
+    box-shadow: 0 5px 20px -6px #777;
+}
+
+footer {
+    -webkit-box-shadow: 0px -1px 40px -6px #777;
+    -moz-box-shadow: 0px -1px 40px -6px #777;
+    box-shadow: 0px -1px 40px -6px #777;
+}
+```
+
+### Call to action button animation
+
+Call to action buttons slide in from the left on the index page in order to draw the user's eye.
+
+```css
+/* animation for header buttons */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.headerbutton {
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+}
+```
+
+### Icon links to social platforms with _blank target
+
+Icons in the nav bar, at the top left, link to GitHub and LinkedIn. They use Font Awesome icons and open the links with a "_blank" target, which opens them in a new page. That way users do not get directed away from my portfolio.
+
+```html
+<a target="_blank" href="https://www.linkedin.com/in/jrwebdesign/"><i class="fa-brands fa-linkedin social-icons"></i></a>
+```
+
+### Blog section with sidebar that moves underneith blog posts depending on viewport width
+
+The blog page contains some interesting use of Flexbox. Using the flex value, the sidebar moves _underneith_ the blog posts depending on viewport. At 600px, the flex value changes from sharing space at 3/4 and 1/4 to both taking 1/1 available width.
+
+```css
+@media (min-width: 600px) {
+    .page-blog-sidebar {
+        flex: 1;
+    }
+    .page-blog-main {
+        flex: 3;
+    }
+    .page-blog-flex-grid {
+        flex-direction: row;
+    }
+}
+@media (max-width: 600px) {
+    .page-blog-sidebar {
+        flex: 1;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .page-blog-main {
+        flex: 1;
+    }
+}
+```
+### Uniform site content area widths
+
+I achieved this with a main-box class, page-wrapper class and page-container class. The page-wrapper has a max width of 1200px, and page-container has a width of 100%. This made the design responsive but capped at 1200px. It allowed me to be flexible with my elements, but still consistent in the width that they are displayed.
+
+The padding on left and right sides really made the website pop on mobile phones, as rather than just being flat white space the animated background could be seen. In my opinion, this gave the mobile view of the website a much more dynamic feel and felt more like a 'web app' than a 'website'.
+
+```css
+.main-box {
+    padding: 0px 15px 0px 15px;
+    min-height: 100%;
+}
+.page-wrapper {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.page-container {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    -webkit-box-shadow: 0 5px 20px -6px #777;
+    -moz-box-shadow: 0 5px 20px -6px #777;
+    box-shadow: 0 5px 20px -6px #777;
+}
+```
+
+
 ## Sitemap
 
 ## Screenshots
